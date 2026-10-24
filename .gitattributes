@@ -1,0 +1,19 @@
+# 统一换行符
+* text=auto eol=lf
+
+# 书籍与图片：二进制，禁止换行转换
+*.pdf   binary
+*.epub  binary
+*.mobi  binary
+*.azw3  binary
+*.docx  binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.zip   binary
+
+# 不做语言统计
+*.pdf   linguist-detectable=false
+*.epub  linguist-detectable=false
+*.png   linguist-detectable=false
+*.jpg   linguist-detectable=false
